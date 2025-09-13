@@ -6,7 +6,7 @@
     const MY_NAME = "Samuel Theodore Lima";
     // Se quiser exigir correspondência exata do nome dela, troque para true e defina EXPECTED.
     const REQUIRE_EXACT_MATCH = false;
-    const EXPECTED = null; // ex.: "maria clara da silva"
+    const EXPECTED = null;
     const MIN_WORDS = 2; // nome + sobrenome ao menos
 
     /***************
@@ -195,4 +195,5 @@
 
     // Foco inicial
     setTimeout(()=> input.focus(), 200);
+
 
