@@ -131,7 +131,7 @@
       setError('');
       const val = input.value || '';
       if (!isLikelyFullName(val)){
-        setError('Coloque seu nome completo (ex.: Maria Clara da Silva) — apenas letras e espaços.');
+        setError('Coloque seu nome completo — apenas letras e espaços.');
         input.focus();
         return;
       }
@@ -195,3 +195,4 @@
 
     // Foco inicial
     setTimeout(()=> input.focus(), 200);
+
